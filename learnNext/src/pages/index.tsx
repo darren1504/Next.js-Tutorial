@@ -2,6 +2,7 @@ import { Button, Flex } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Sample01 from "./components/01/Sample01";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
             <Link href={"/components/01/Sample01"}>Sample01</Link>
           </Button>
         </Flex>
+        <Sample01 />
       </main>
     </>
   );

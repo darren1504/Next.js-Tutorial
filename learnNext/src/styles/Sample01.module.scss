@@ -1,0 +1,22 @@
+.text {
+  // width: 100%;
+  height: 100px;
+  color: #f3f3f3;
+  background: #333;
+  padding: 2rem;
+  margin: 1.2rem;
+  transition: 200ms ease-in-out;
+  &:hover {
+    color: #333;
+    background: #f3f3f3;
+  }
+}
+
+.text2 {
+  color: wheat;
+  background: darkblue;
+  &:hover {
+    color: darkblue;
+    background: wheat;
+  }
+}
